@@ -1,0 +1,15 @@
+.svn
+*.DS_Store*
+Gemfile.lock
+tmp
+log
+public´
+server/scripts/sample-vcards
+server/store
+*.cache
+.sass-cache
+*.swp
+tags
+*.orig
+*.tbz
+_site

@@ -1,0 +1,27 @@
+---
+layout: default
+title: Majd Taby
+---
+
+<div id="home">
+
+  <h1 class="section-header">
+    Posts
+  </h1>
+
+  <ul id="posts-list" class="homepage-list">
+    {% for post in site.posts %}
+    <li>
+      <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+      <span class="post-date subtext">{{ post.date | date_to_long_string }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+  <h1 class="section-header">
+    Projects
+  </h1>
+
+  <ul id="projects-list" class="homepage-list">
+    <li><a href="http://github.com/jtaby/Waldo">Waldo</a> A stand-alone port of TextMate's Find-in-Project feature</li>
+  </ul>
+</div>

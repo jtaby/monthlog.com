@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <meta name="viewport" content="width=device-width">
+   
+   <title>{{ page.title }}</title>
+   <meta name="author" content="Majd Taby" />
+	<link href="http://feeds.feedburner.com/majd-taby" rel="alternate" title="Majd Taby" type="application/atom+xml" />
+
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection, print" />
+</head>
+<body>
+
+<div class="site">
+  <div id="site-header">
+    <div class="content-wrapper">
+      <a id="site-name" href="/">JTABY</a>
+
+      <ul id="navigation">
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/index.html">Home</a></li>
+      </ul>
+      <div style="clear:both"></div>
+    </div>
+  </div>
+  
+  <div id="main-content" class="content-wrapper">
+    {{ content }}
+  </div>
+
+  <div id="footer" class="content-wrapper">
+    <div class="details left">
+      <p>Majd Taby</p>
+      <p>Engineer at <a href="http://strobecorp.com">Strobe</a></p>
+      <p><a href="mailto:mtaby@me.com">mtaby@me.com</a></p>
+    </div>
+    <div class="details right">
+			<p>Subscribe to me on <a href="http://feeds.feedburner.com/majd-taby"> RSS</a>
+      <p>Follow me on <a href="http://twitter.com/jtaby">twitter</a></p>
+      <p>Fork me on <a href="http://github.com/jtaby">github</a></p>
+    </div>
+  </div>
+</div>
+
+<!--- START GOOGLE ANALYTICS -->
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-489080-4']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+<!--- END GOOGLE ANALYTICS -->
+
+</body>
+</html>
